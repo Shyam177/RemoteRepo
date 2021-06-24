@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MainController {
+public class Main {
 	
 	@GetMapping("/")
 	public String getmessage() {
-		return "Hi, Welcome to Devops Training !!!";
+		return "Hi, Welcome to Devops Training !!!"
 	}
 
 }
